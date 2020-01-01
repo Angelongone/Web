@@ -134,7 +134,12 @@
 	font-size: 20px;
 }
 
-a:link,a:active{
-	color: #FFFFFF;
+.a1:link,.a1:active{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.a2:link,.a2:active{
+	color: #000000;
 	text-decoration: none;
 }
