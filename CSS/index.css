@@ -7,12 +7,12 @@
 
 .out{
 	background-color: black;
-	background-size: auto 2000px;
+/*	background-size: auto 2000px;*/
 }
 
 .zhuti{
 	width: 980px;
-	height: 2000px;
+	height: 2279px;
 	background-color: #04C4BE;
 	margin:auto auto;
 }
@@ -66,7 +66,7 @@
 .middle{
 	background-color: #FFFFFF;
 	width: 980px;
-	height: 1113px;
+	height: 1392px;
 }
 
 .tubiao{
@@ -112,8 +112,13 @@
 	height: 279px;
 }
 
+.tubiaoLearn{
+	width: 980px;
+	height: 279px;
+}
+
 .bottom{
-	background-color: aliceblue;
+/*	background-color:aliceblue;*/
 	width: 980px;
 	height: 152px;
 	text-align: center;
