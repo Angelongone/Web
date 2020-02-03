@@ -14,21 +14,22 @@ body{
 #big{
 	background-color: #13b2c0;
 	width: 980px;
-	height: 1450px;
+	height: 1950px;
 	margin: 0 auto;
 }
 
 #title{
 	background-color: #075a8e;
 	width: 100%;
-	height: 70px;
+	height: 100px;
 	text-align: center;
 }
 
 #fongTitle{
-	font-size: 50px;
+	font-size: 70px;
 	color: aliceblue;
 	display: block;
+	font-weight: bolder;
 	
 }
 
@@ -42,9 +43,9 @@ body{
 	background-size: 400px 400px;
 	width: 400px;
 	height: 400px;
-	border: 20px double #D9D5D5;
+	border: 40px solid #D9D5D5;
 	display:inline-block;
-	margin: 50px;
+	margin: 70px 50px;
 }
 
 #never{
@@ -59,8 +60,8 @@ body{
 #mamba{
 	background-color: #075a8e;
 	width: 980px;
-	height: 700px;
-	margin: 40px auto;
+	height: 1000px;
+	margin: 70px auto;
 }
 
 #blackDiv{
@@ -72,7 +73,7 @@ body{
 	color: aliceblue;
 	font-weight: bolder;
 	display: inline-block;
-	margin: 40px 50px;
+	margin: 70px 70px;
 }
 
 #kebe{
@@ -80,7 +81,7 @@ body{
 	color: aliceblue;
 	font-weight: bolder;
 	display: inline-block;
-	margin: 0 0 0 50px;
+	margin: 0 0 50px 50px;
 	
 }
 
@@ -95,6 +96,7 @@ body{
 	font-size: 20px;
 	color: aliceblue;
 	text-indent: 2em;
+	margin: 40px;
 	
 }
 
@@ -103,7 +105,7 @@ body{
 }
 
 #botfont{
-	font-size: 30px;
+	font-size: 40px;
 	color:aliceblue;
 	font-weight: bolder;
 	
