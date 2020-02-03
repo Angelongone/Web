@@ -22,7 +22,7 @@
 					</table>
 				</div>
 				<div class="top2">
-					<img alt="风景图" src="Image/beijing.jpg" class="fenjing" />
+					<img id="roll" alt="风景图" src="Image/kebi.jpg" class="fenjing" />
 					<img src="Image/minyan.jpg" alt="我的名言" class="mingyan" />
 				</div>
 			</div>
@@ -83,5 +83,30 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		var doc = document.getElementById("roll");
+		
+		function stp1(){
+			doc.setAttribute("src","Image/beijing.jpg");
+			setTimeout(stp2,3000);
+		}
+		
+		function stp2(){
+			doc.setAttribute("src","Image/kebi.jpg");
+			setTimeout(stp3,3000);
+		}
+		
+		function stp3(){
+			doc.setAttribute("src","Image/kebi1.jpg");
+			setTimeout(stp4,3000);
+		}
+		
+		function stp4(){
+			doc.setAttribute("src","Image/back.jpg");
+			setTimeout(stp1,3000);
+		}
+		
+		stp1();
+	</script>
 </body>
 </html>
